@@ -8,4 +8,10 @@ header {
 
 span {
     text-decoration:aqua;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
