@@ -1,0 +1,11 @@
+header {
+    background-color: aquamarine;
+}
+
+#card {
+    display: none;
+}
+
+span {
+    text-decoration:aqua;
+}
