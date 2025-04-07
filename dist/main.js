@@ -10,6 +10,7 @@ function renderSeriesInTable(series) {
         var spanElement = document.createElement("span");
         spanElement.onclick = function () { c.showCard(cardBody); };
         spanElement.textContent = c.name;
+        spanElement.style.color = "blue";
         tdName.appendChild(spanElement);
         var tdChannel = document.createElement("td");
         tdChannel.innerHTML = "".concat(c.channel);

@@ -11,7 +11,8 @@ function renderSeriesInTable(series: Serie[]): void {
       let tdName = document.createElement("td");
       let spanElement = document.createElement("span");
       spanElement.onclick = () => {c.showCard(cardBody)};
-      spanElement.textContent = c.name
+      spanElement.textContent = c.name;
+      spanElement.style.color = "blue";
       tdName.appendChild(spanElement);
       let tdChannel = document.createElement("td");
       tdChannel.innerHTML = `${c.channel}`;
